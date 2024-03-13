@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/questions.js": {
+      "runtime": "nodejs12.x"
+    }
+  }
+}
