@@ -84,7 +84,8 @@ function QuizProvider({ children }) {
     0
   );
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://github.com/BetulBuyukzengin/quizApi/blob/main/questions.json").
+    //fetch("http://localhost:8000/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
