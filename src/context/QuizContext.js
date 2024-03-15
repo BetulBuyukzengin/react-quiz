@@ -84,7 +84,7 @@ function QuizProvider({ children }) {
     0
   );
   useEffect(function () {
-    fetch("https://github.com/BetulBuyukzengin/quizApi/blob/main/questions.json")
+    fetch("https://main--fabulous-horse-0fa65b.netlify.app/")
     //fetch("http://localhost:8000/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
