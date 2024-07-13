@@ -15,7 +15,7 @@
 
 # 🛠Kullanılan Teknolojiler:
 
-Koşullu işleme.
+<!--Koşullu işleme.
 useState yerine, birden fazla durumu aynı anda kontrol eden useReducer kullanılır.
 Redüktör fonksiyonlu anahtar/kasa yapısı için.
 Başlangıç ​​durumlarından türetilmiş durum.
@@ -24,5 +24,17 @@ Pervane Delme, Çocuklarda Pervane ve Komponent Kompozisyonu.
 Kısa devre, yapıbozum, haritalama, indirgeme ve sıralama gibi JS özelliği olan yöntemler.
 Oluşturma listesindeki anahtar özellik.
 Temiz setInterval yan etkileri için temizleme fonksiyonu.
+
+Conditional rendering.
+Instead of useState, useReducer which controls different states at once.
+For reducer function switch/case structure.
+Derived state from initial states.
+useEffect hook for fetch quesitons.
+Prop Drilling, children prop and component composition.
+Short Circuiting, destructuring, map, reduce and sort method which is JS feature.
+Key prop on rendering list.
+Cleanup function for clean setInterval sideeffects.
+
+-->
 
 ![React-use-Pop-Corn](public/react-quiz.gif)
