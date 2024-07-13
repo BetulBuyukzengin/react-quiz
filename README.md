@@ -12,9 +12,9 @@
 - Maximum alabileceği puan 280 puandır.
 - Quiz tamamlandığında toplam kazanılan puan gösterilmektedir.
 - Sayfa yenilenmediği takdirde daha önce yapılan yüksek score gösterilir ve üzerine yazılır.
-
+<!--
 # 🛠Kullanılan Teknolojiler:
-
+-->
 <!--Koşullu işleme.
 useState yerine, birden fazla durumu aynı anda kontrol eden useReducer kullanılır.
 Redüktör fonksiyonlu anahtar/kasa yapısı için.
