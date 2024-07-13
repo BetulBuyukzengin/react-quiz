@@ -1,3 +1,3 @@
 # React Quiz
 
-# <a href="https://react-quiz-betul.netlify.app/">Live version</a>
+# <a href="https://react-quiz-challange.netlify.app/">Live version</a>
