@@ -85,7 +85,7 @@ function App() {
   ] = useReducer(reducer, initialState);
 
   const numQuestions = questions.length;
-  const maxPossiplePoints = questions.reduce(
+  const maxPossiblePoints = questions.reduce(
     (prev, cur) => prev + cur.points,
     0
   );
@@ -111,7 +111,7 @@ function App() {
               index={index}
               numQuestions={numQuestions}
               points={points}
-              maxPoints={maxPossiplePoints}
+              maxPoints={maxPossiblePoints}
               answer={answer}
             />
             <Question
@@ -133,7 +133,7 @@ function App() {
         {status === "finished" && (
           <FinishScreen
             points={points}
-            maxPoints={maxPossiplePoints}
+            maxPoints={maxPossiblePoints}
             highScore={highScore}
             dispatch={dispatch}
           />

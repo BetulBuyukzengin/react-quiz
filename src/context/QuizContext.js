@@ -79,13 +79,13 @@ function QuizProvider({ children }) {
   ] = useReducer(reducer, initialState);
 
   const numQuestions = questions.length;
-  const maxPossiplePoints = questions.reduce(
+  const maxPossiblePoints = questions.reduce(
     (prev, cur) => prev + cur.points,
     0
   );
   useEffect(function () {
     fetch("https://my-json-server.typicode.com/BetulBuyukzengin/demo/questions")
-    //fetch("http://localhost:8000/questions")
+      //fetch("http://localhost:8000/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
@@ -103,7 +103,7 @@ function QuizProvider({ children }) {
         secondsRemaining,
         dispatch,
         numQuestions,
-        maxPossiplePoints,
+        maxPossiblePoints,
       }}
     >
       {children}
