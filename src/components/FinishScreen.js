@@ -14,8 +14,8 @@ export default function FinishScreen() {
   return (
     <>
       <p className="result">
-        <span>{emoji}</span>You scored <strong>{points}</strong> out of
-         {maxPossiblePoints}({Math.ceil(percentage)}%)
+        <span>{emoji}</span>You scored <strong>{points}</strong>
+        out of {maxPossiblePoints}({Math.ceil(percentage)}%)
       </p>
       <p className="highscore">(Highscore: {highScore} points)</p>
       <button
