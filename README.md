@@ -12,29 +12,17 @@
 - Maximum alabileceği puan 280 puandır.
 - Quiz tamamlandığında toplam kazanılan puan gösterilmektedir.
 - Sayfa yenilenmediği takdirde daha önce yapılan yüksek score gösterilir ve üzerine yazılır.
-<!--
-# 🛠Kullanılan Teknolojiler:
--->
-<!--Koşullu işleme.
-useState yerine, birden fazla durumu aynı anda kontrol eden useReducer kullanılır.
-Redüktör fonksiyonlu anahtar/kasa yapısı için.
-Başlangıç ​​durumlarından türetilmiş durum.
-Soruları almak için useEffect kancası.
-Pervane Delme, Çocuklarda Pervane ve Komponent Kompozisyonu.
-Kısa devre, yapıbozum, haritalama, indirgeme ve sıralama gibi JS özelliği olan yöntemler.
-Oluşturma listesindeki anahtar özellik.
-Temiz setInterval yan etkileri için temizleme fonksiyonu.
 
-Conditional rendering.
-Instead of useState, useReducer which controls different states at once.
-For reducer function switch/case structure.
-Derived state from initial states.
-useEffect hook for fetch quesitons.
-Prop Drilling, children prop and component composition.
-Short Circuiting, destructuring, map, reduce and sort method which is JS feature.
-Key prop on rendering list.
-Cleanup function for clean setInterval sideeffects.
+# 🛠Kullanılan React Özellikleri:
 
--->
+- Kondisyonel renderlama kullandım.
+- useState yerine, birden fazla durumu aynı anda kontrol etmek için useReducer kullandım.
+- Reducer fonksiyonu için switch/case yapısını kullandım.
+- Başlangıç ​​durumlarından türetilmiş durumlar kullandım (Derived state).
+- Api dan soruları getirmek  (fetch) için useEffect kancası kullandım.
+- Prop Drilling, children prop ve component composition kullandım
+- JS methodları ve özellikleri olan short circuiting, destructuring, map, reduce ve sort kullandım.
+- Liste renderlamada key propu kullandım (map).
+- setInterval ın yan etkilerini (side effects) temizlemek için cleanup fonksiyonu kullandım.
 
 ![React-use-Pop-Corn](public/react-quiz.gif)
