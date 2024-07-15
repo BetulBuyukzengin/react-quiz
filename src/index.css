@@ -257,3 +257,61 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+/* 1000px */
+/* @media only screen and (max-width: 62.5em) {
+} */
+
+/* 768px */
+/* @media only screen and (max-width: 48em) {
+} */
+
+/* 600px */
+/* @media only screen and (max-width: 37.5em) {
+} */
+
+/* 500px */
+/* @media only screen and (max-width: 31.25em) {
+} */
+
+/* 400px */
+/* @media only screen and (max-width: 25em) {
+} */
+
+@media only screen and (max-width: 37.5em) {
+  .app {
+    width: 100%;
+  }
+  .app-header {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 5rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  main div h2 {
+    font-size: 3rem;
+  }
+  main div h3 {
+    margin: 8rem 0 4rem 0;
+  }
+  .btn-option {
+    font-size: 1.3rem;
+  }
+  .result {
+    font-size: 1.3rem;
+  }
+  .result span {
+    font-size: 1.5rem;
+  }
+  .btn-ui {
+    align-self: center;
+  }
+}

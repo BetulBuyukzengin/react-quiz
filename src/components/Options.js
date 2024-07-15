@@ -16,7 +16,7 @@ export default function Options({ question }) {
               : ""
           }`}
           key={option}
-          // herhangi bir cevap(boş değilse) bu butonu devre dışı bırakacak
+          // Herhangi bir cevap(boş değilse) bu butonu devre dışı bırakacak
           disabled={hasAnswered}
           onClick={() => dispatch({ type: "newAnswer", payload: index })}
         >
