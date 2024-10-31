@@ -1,6 +1,6 @@
 # ❓🧠 React Quiz 
 ## Canlı versiyon : <a href="https://react-quiz-challange.netlify.app/">React Quiz</a>
-- React js create app ile oluşturduğum bu uygulama,  kullanıcıların kendilerini test ederken öğreneceği, öğrenirken eğlenebileceği mini bir react quiz uygulamasıdır.
+- Create react app ile oluşturduğum bu uygulama, kullanıcıların kendilerini test ederken öğreneceği, öğrenirken eğlenebileceği mini bir react quiz uygulamasıdır.
 
 ## 📝Proje Özellikleri:
 
